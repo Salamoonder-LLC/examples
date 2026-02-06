@@ -21,7 +21,7 @@ client = Salamoonder(API_KEY)
 # Get initial response
 response = client.get(URL, headers=HEADERS)
 
-if "Pardon Our Interruption" not in response.text:
+if "Pardon Our Interruption" not in response.text and "Incapsula incident ID" not in response.text:
     logger.info("No challenge detected")
     exit(0)
 
@@ -32,7 +32,9 @@ task_id = client.task.createTask(
     task_type="IncapsulaReese84Solver",
     website=URL,
     submit_payload=True,
-    user_agent=USER_AGENT
+    # Optional parameters
+    # reese_url="..." <- https://apidocs.salamoonder.com/tasks/incapsula/reese84#what-if-your-response-doesn’t-match-ours
+    # user_agent=USER_AGENT
 )
 
 result = client.task.getTaskResult(task_id)
@@ -55,7 +57,7 @@ client.session.cookies.set(
 # Verify bypass
 response = client.get(URL, headers=HEADERS)
 
-if "Pardon Our Interruption" not in response.text:
+if "Pardon Our Interruption" not in response.text and "Incapsula incident ID" not in response.text:
     logger.success("Successfully bypassed Incapsula!")
 else:
     logger.error("Bypass failed")
