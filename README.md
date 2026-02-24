@@ -50,7 +50,7 @@ We'll review your submission and merge it into the repository. Thanks for helpin
 
 ## Documentation
 
-For detailed information about the Salamoonder SDK, visit the [official SDK repository](https://github.com/Salamoonder-LLC/salamoonder-py). Or check out our [API Documentation](https://apidocs.salamoonder.com/api-documentation/tasks)
+For detailed information about the Salamoonder SDK, visit the [official SDK repository](https://github.com/Salamoonder-LLC/salamoonder-py). Or check out our [API Documentation](https://apidocs.salamoonder.com/tasks)
 
 ## License
 
