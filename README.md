@@ -4,16 +4,22 @@ Welcome to the Salamoonder Examples repository! This collection showcases practi
 
 ## About
 
-This repository contains a curated set of examples demonstrating how to build with the [Salamoonder Python SDK](https://github.com/Salamoonder-LLC/salamoonder-py). Whether you're just getting started or looking for inspiration on how to solve specific problems, you'll find working code samples here.
+This repository contains a curated set of examples demonstrating how to build with the Salamoonder SDKs:
+- [Salamoonder Python SDK](https://github.com/Salamoonder-LLC/salamoonder-py)
+- [Salamoonder JavaScript SDK](https://www.npmjs.com/package/salamoonder-js)
+
+Whether you're just getting started or looking for inspiration on how to solve specific problems, you'll find working code samples here for both Python and JavaScript.
 
 ## Getting Started
 
-### Prerequisites
+### Python Examples
+
+#### Prerequisites
 
 - Python 3.7+
-- The Salamoonder SDK
+- The Salamoonder Python SDK
 
-### Installation
+#### Installation
 
 Clone both the Salamoonder SDK and this examples repository:
 
@@ -23,6 +29,29 @@ git clone https://github.com/Salamoonder-LLC/examples.git
 ```
 
 Make sure the `salamoonder` folder from `salamoonder-py` is available locally, and you're all set to run the examples!
+
+### JavaScript Examples
+
+#### Prerequisites
+
+- Node.js 12+
+- npm or yarn
+
+#### Installation
+
+Simply install the `salamoonder-js` package:
+
+```bash
+npm i salamoonder-js
+```
+
+Or with yarn:
+
+```bash
+yarn add salamoonder-js
+```
+
+Then explore the JavaScript examples in the `javascript/` directory.
 
 ## Examples
 
@@ -50,7 +79,11 @@ We'll review your submission and merge it into the repository. Thanks for helpin
 
 ## Documentation
 
-For detailed information about the Salamoonder SDK, visit the [official SDK repository](https://github.com/Salamoonder-LLC/salamoonder-py). Or check out our [API Documentation](https://apidocs.salamoonder.com/tasks)
+For detailed information about the Salamoonder SDKs:
+
+- **Python SDK**: Visit the [Salamoonder Python SDK repository](https://github.com/Salamoonder-LLC/salamoonder-py)
+- **JavaScript SDK**: Visit the [Salamoonder JS npm package](https://www.npmjs.com/package/salamoonder-js)
+- **API Documentation**: Check out our [API Documentation](https://apidocs.salamoonder.com/tasks)
 
 ## License
 
